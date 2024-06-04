@@ -1,0 +1,20 @@
+.nav {
+  flex: 0 0 264px;
+}
+.nav .nav__list {
+  color: var(--color-text);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 12px;
+}
+.nav .nav__list .nav__item {
+  border-radius: var(--button-radius);
+  padding: 8px;
+}
+.nav .nav__list .nav__item .nav__button {
+  font-size: 18px;
+}
+.nav .nav__list .nav__item-active {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+}/*# sourceMappingURL=CategoryNavigator.css.map */

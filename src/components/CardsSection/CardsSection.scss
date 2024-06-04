@@ -1,0 +1,28 @@
+
+.section {
+    flex-grow: 1;
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        .cards__item {
+            min-width: 177px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-card);
+            overflow: hidden;
+            .cards__img {
+                display: flex;
+                justify-content: center;
+                .cards__img-content {
+                    width: 144px;
+                    height: 144px;
+                }
+            }
+    
+            .cards__title {
+                font-size: 18px;
+                padding: 12px 18px;
+            }
+        }
+}
+}

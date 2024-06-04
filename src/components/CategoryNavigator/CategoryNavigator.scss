@@ -1,0 +1,21 @@
+.nav {
+    flex: 0 0 264px;
+    .nav__list {
+        color: var(--color-text);
+        border: var(--border);
+        border-radius: var(--border-radius);
+        padding: 12px;
+        .nav__item {
+            border-radius: var(--button-radius);
+            padding: 8px;
+            .nav__button {
+                font-size: 18px;
+            }
+        }
+
+        .nav__item-active {
+            background-color: var(--color-accent);
+            color:var(--color-light);
+        }
+    }
+}

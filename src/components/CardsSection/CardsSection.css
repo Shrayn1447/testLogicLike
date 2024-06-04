@@ -1,0 +1,26 @@
+.section {
+  flex-grow: 1;
+}
+.section .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.section .cards .cards__item {
+  min-width: 177px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+.section .cards .cards__item .cards__img {
+  display: flex;
+  justify-content: center;
+}
+.section .cards .cards__item .cards__img .cards__img-content {
+  width: 144px;
+  height: 144px;
+}
+.section .cards .cards__item .cards__title {
+  font-size: 18px;
+  padding: 12px 18px;
+}/*# sourceMappingURL=CardsSection.css.map */
